@@ -1,9 +1,8 @@
 #include<stdio.h>
+#include<stdlib.h>
 
 int main(){
-
-    printf("Hola compañeros")
-
-
-return0;
+    system("color 40");
+    printf("Hola compañeros");
+    return 0;
 }
