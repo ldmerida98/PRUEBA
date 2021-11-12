@@ -1,0 +1,8 @@
+#include<stdio.h>
+
+int main(){
+	int calificacion;
+	
+	printf("Escribe por favor tu calificacion obtenida: ");
+	scanf("%i",&calificacion);	
+	printf("\n\n\n");
