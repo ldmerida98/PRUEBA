@@ -23,3 +23,11 @@ if(calificacion>=0 && calificacion<=100){
 			printf("Tu calificacion obtenida es A");
 		}
 	}
+	else{
+	printf("Por favor valida tu calificacion porque esta incorrecta");
+	} 
+	
+	getch();
+	return 0;
+}
+
