@@ -4,5 +4,24 @@
 int main(){
     system("color 40");
     printf("Hola compañeros");
+    int main() {
+	//*Color por presentación*//
+	system("color 40");
+	int anio,febrero;
+	int opcion=1, dias_mes, dia=1, mes=1;
+	
+	//*Función de la librería time.h para imprimir la fecha de la computadora*//
+	time_t fecha;
+	struct tm *ahora;
+	time(&fecha); //*Se guarda la variable de la fecha*//
+	ahora=localtime(&fecha); //*Ahora hace referencia a la fecha del día de hoy la cual cambiará dependiendo cuando se abra el programa*//
+	dia=ahora->tm_mday;
+	mes=ahora->tm_mon+1; //*Se utiliza +1 porque el mes lo inicia en 00*//
+	anio = (ahora->tm_year)+1900; //*Se añade 1900 sino inicia en 00*//
+	system ("cls"); //*Limpiador de pantalla para que no se encime la fecha de la computadora con la futura requerida*//
+	printf("\t\t\t--------------------CALENDARIO--------------------\n\n"); //*Título*//
+	printf(" > La fecha de hoy es: %d/%d/%d \n\n\n",dia,mes,anio); //*Fecha con la función time_t*//
+	while (opcion != 0) //*Ciclo que se detiene cuando se da la opción 0, es decir, no buscar otra fecha*//
+	{
     return 0;
 }
