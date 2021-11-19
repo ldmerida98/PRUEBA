@@ -146,3 +146,12 @@ if (opcion == 1)
 	}
 	return 0;
 }
+int congruencia(int a,int k, int d)
+{
+    int x = (14-k)/12;
+    int y = a - x;
+    int z = k + 12*x - 2;
+
+    int r = (d + y+ y/4 - y/100 + y/400 + (31*z)/12)%7;
+    return r;
+}
