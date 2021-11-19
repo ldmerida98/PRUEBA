@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdlib.h>
 
-int main() {//Daniel
+int main() {
 	system("color 40");
 	int anio;
 	int opcion=1, dia=1, mes=1;
@@ -126,3 +126,17 @@ for (int dia=1; dia<=dias_mes; dia++)
 		printf("\n\t\t"); 
 	}
 }
+printf("\n\n%cQui%cres buscar otra fecha? \n ", 168, 130); 
+printf("\t0 = NO 1 = SI\t> "); 
+scanf("%d",&opcion); 
+
+while (opcion<0 || opcion>1) 
+{
+	printf("\t");
+}
+if (opcion == 1)
+	{
+		printf("\n\t> %cQu%c mes buscas? ", 168, 130); 
+		scanf("%d",&mes);
+		printf ("\n\t> %cDe qu%c a%co? ", 168, 130, 164); 
+		scanf("%d",&anio);
