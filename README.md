@@ -101,3 +101,28 @@ int main() {//Daniel
 		return 0;
 	} 
 	}
+if (mes<=12) 
+	{
+		printf("\t\tDom Lun Mar Mie Jue Vie Sab\n\t\t"); 
+	} 
+	int cong = congruencia(anio, mes,1); 
+	for (int i = 0; i < cong; i++)
+	{
+		printf("    "); 
+	}
+for (int dia=1; dia<=dias_mes; dia++) 
+{
+	if (dia<10)
+	{
+		printf("%i   ", dia); 
+	}
+	else
+	{
+		printf("%i  ", dia); 
+	}
+	cong++;
+	if (cong%7==0) 
+	{
+		printf("\n\t\t"); 
+	}
+}
