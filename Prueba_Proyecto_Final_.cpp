@@ -19,3 +19,30 @@ int main() {//Daniel
 	printf(" > La fecha de hoy es: %d/%d/%d \n\n\n",dia,mes,anio);
 		while (opcion != 0) 
 	{
+			if (mes==2) 
+	{
+		if (anio%4==0) 
+		{
+			febrero=29; 
+		}
+		else
+		{
+			febrero=28; 
+		}
+	}	
+	switch (mes)
+	{
+	
+		case 4: case 6: case 9: case 11: 
+		dias_mes=30; 
+		break; 
+		case 2: 
+		dias_mes=febrero; 
+		break; 
+		case 1: case 3: case 5: case 7: case 8: case 10: case 12: 
+		dias_mes=31; 
+		break; 
+		default:
+		printf("\t\tERROR");
+		break;
+	}
