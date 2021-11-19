@@ -32,6 +32,22 @@ int main() {//Daniel
 	}	
 	switch (mes)
 	{
+		case 4: case 6: case 9: case 11: 
+		dias_mes=30; 
+		break; 
+		case 2: 
+		dias_mes=febrero; 
+		break; 
+		case 1: case 3: case 5: case 7: case 8: case 10: case 12: 
+		dias_mes=31; 
+		break; 
+		default:
+		printf("\t\tERROR");
+		break;
+	}
+
+		switch(mes)
+		{	
 		case 1: 
 		printf("\n\t\t----------ENERO------------\n");
 		printf("\t\t\t   %i\n", anio);
@@ -84,17 +100,4 @@ int main() {//Daniel
 		printf("\t\tNO EXISTE MES %i", mes);
 		break;
 		return 0;
-	}
-		case 4: case 6: case 9: case 11: 
-		dias_mes=30; 
-		break; 
-		case 2: 
-		dias_mes=febrero; 
-		break; 
-		case 1: case 3: case 5: case 7: case 8: case 10: case 12: 
-		dias_mes=31; 
-		break; 
-		default:
-		printf("\t\tERROR");
-		break;
 	}
