@@ -1,2 +1,9 @@
-# PRUEBA
-EJERCICIO DE PRUEBA
+#include <stdio.h>
+#include <time.h>
+#include <stdlib.h>
+
+int main() {
+
+
+return0;
+}
