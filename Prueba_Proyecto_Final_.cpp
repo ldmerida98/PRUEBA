@@ -17,3 +17,5 @@ int main() {//Daniel
 	system ("cls");
 	printf("\t\t\t--------------------CALENDARIO--------------------\n\n");
 	printf(" > La fecha de hoy es: %d/%d/%d \n\n\n",dia,mes,anio);
+		while (opcion != 0) 
+	{
