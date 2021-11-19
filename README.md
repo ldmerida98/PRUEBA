@@ -14,6 +14,9 @@ int main() {//Daniel
 	dia=ahora->tm_mday;
 	mes=ahora->tm_mon+1; 
 	anio = (ahora->tm_year)+1900; 
+	system ("cls"); 
+	printf("\t\t\t--------------------CALENDARIO--------------------\n\n"); 
+	printf(" > La fecha de hoy es: %d/%d/%d \n\n\n",dia,mes,anio); 
   while (opcion != 0) 
 	{
 	if (mes==2)
@@ -42,4 +45,59 @@ int main() {//Daniel
 		default:
 		printf("\t\tERROR");
 		break;
+		switch (mes) //*Inicia Iván
+	{
+		case 1: 
+		printf("\n\t\t----------ENERO------------\n");
+		printf("\t\t\t   %i\n", anio);
+		break;
+		case 2:
+		printf("\n\t\t----------FEBRERO----------\n");
+		printf("\t\t\t   %i\n", anio);
+		break;
+		case 3:
+		printf("\n\t\t-----------MARZO-----------\n");
+		printf("\t\t\t   %i\n", anio);
+		break;
+		case 4:
+		printf("\n\t\t-----------ABRIL-----------\n");
+		printf("\t\t\t   %i\n", anio);
+		break;
+		case 5:
+		printf("\n\t\t-----------MAYO------------\n");
+		printf("\t\t\t   %i\n", anio);
+		break;
+		case 6:
+		printf("\n\t\t----------JUNIO------------\n");
+		printf("\t\t\t   %i\n", anio);
+		break;
+		case 7:
+		printf("\n\t\t----------JULIO------------\n");
+		printf("\t\t\t   %i\n", anio);
+		break;
+		case 8:
+		printf("\n\t\t----------AGOSTO-----------\n");
+		printf("\t\t\t   %i\n", anio);
+		break;
+		case 9:
+		printf("\n\t\t--------SEPTIEMBRE---------\n");
+		printf("\t\t\t   %i\n", anio);
+		break;
+		case 10:
+		printf("\n\t\t----------OCTUBRE----------\n");
+		printf("\t\t\t   %i\n", anio);
+		break;
+		case 11:
+		printf("\n\t\t---------NOVIEMBRE---------\n");
+		printf("\t\t\t   %i\n", anio);
+		break;
+		case 12:
+		printf("\n\t\t--------DICIEMBRE----------\n");
+		printf("\t\t\t   %i\n", anio);
+		break;
+		default:
+		printf("\t\tNO EXISTE MES %i", mes);
+		break;
+		return 0;
+	} 
 	}
