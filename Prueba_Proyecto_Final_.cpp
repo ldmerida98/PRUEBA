@@ -140,3 +140,5 @@ if (opcion == 1)
 		scanf("%d",&mes);
 		printf ("\n\t> %cDe qu%c a%co? ", 168, 130, 164); 
 		scanf("%d",&anio);
+	        system("cls"); 
+		printf("\t\t\t--------------------CALENDARIO--------------------\n\n");
