@@ -46,6 +46,7 @@ int main() {
 		default:
 		printf("\t\tERROR");
 		break;
+	}
 		switch (mes) //*Inicia Iván
 	{
 		case 1: 
