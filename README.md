@@ -6,7 +6,7 @@ int congruencia(int a,int k, int d);
 int main() {
 	system("color 40");
 	int febrero,anio;
-	int opcion=1, dia_mes, dia=1, mes=1;
+	int opcion=1, dias_mes, dia=1, mes=1;
 	
 	time_t fecha; //
 	struct tm *ahora;
