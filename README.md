@@ -4,8 +4,8 @@
 
 int main() {//Daniel
 	system("color 40");
-	int anio,febrero;
-	int opcion=1, dias_mes, dia=1, mes=1;
+	int anio;
+	int opcion=1, dia=1, mes=1;
 	
 	time_t fecha; //
 	struct tm *ahora;
