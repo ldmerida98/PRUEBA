@@ -126,3 +126,17 @@ for (int dia=1; dia<=dias_mes; dia++)
 		printf("\n\t\t"); 
 	}
 }
+printf("\n\n%cQui%cres buscar otra fecha? \n ", 168, 130);
+printf("\t0 = NO 1 = SI\t> "); 
+scanf("%d",&opcion); 
+
+while (opcion<0 || opcion>1) 
+{
+	printf("\t");
+}
+if (opcion == 1)
+	{
+		printf("\n\t> %cQu%c mes buscas? ", 168, 130); 
+		scanf("%d",&mes);
+		printf ("\n\t> %cDe qu%c a%co? ", 168, 130, 164); 
+		scanf("%d",&anio);
