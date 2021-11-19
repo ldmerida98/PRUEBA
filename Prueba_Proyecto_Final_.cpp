@@ -2,6 +2,7 @@
 #include <time.h>
 #include <stdlib.h>
 
+int congruencia(int a,int k, int d);
 int main() {//Daniel
 	system("color 40");
 	int anio, febrero;
