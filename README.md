@@ -3,7 +3,9 @@
 #include <stdlib.h>
 
 int main() {
+int febrero;
+int dia_mes;
 
 
-return 0;
+return0;
 }
