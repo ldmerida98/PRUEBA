@@ -32,7 +32,59 @@ int main() {//Daniel
 	}	
 	switch (mes)
 	{
-	
+		case 1: 
+		printf("\n\t\t----------ENERO------------\n");
+		printf("\t\t\t   %i\n", anio);
+		break;
+		case 2:
+		printf("\n\t\t----------FEBRERO----------\n");
+		printf("\t\t\t   %i\n", anio);
+		break;
+		case 3:
+		printf("\n\t\t-----------MARZO-----------\n");
+		printf("\t\t\t   %i\n", anio);
+		break;
+		case 4:
+		printf("\n\t\t-----------ABRIL-----------\n");
+		printf("\t\t\t   %i\n", anio);
+		break;
+		case 5:
+		printf("\n\t\t-----------MAYO------------\n");
+		printf("\t\t\t   %i\n", anio);
+		break;
+		case 6:
+		printf("\n\t\t----------JUNIO------------\n");
+		printf("\t\t\t   %i\n", anio);
+		break;
+		case 7:
+		printf("\n\t\t----------JULIO------------\n");
+		printf("\t\t\t   %i\n", anio);
+		break;
+		case 8:
+		printf("\n\t\t----------AGOSTO-----------\n");
+		printf("\t\t\t   %i\n", anio);
+		break;
+		case 9:
+		printf("\n\t\t--------SEPTIEMBRE---------\n");
+		printf("\t\t\t   %i\n", anio);
+		break;
+		case 10:
+		printf("\n\t\t----------OCTUBRE----------\n");
+		printf("\t\t\t   %i\n", anio);
+		break;
+		case 11:
+		printf("\n\t\t---------NOVIEMBRE---------\n");
+		printf("\t\t\t   %i\n", anio);
+		break;
+		case 12:
+		printf("\n\t\t--------DICIEMBRE----------\n");
+		printf("\t\t\t   %i\n", anio);
+		break;
+		default:
+		printf("\t\tNO EXISTE MES %i", mes);
+		break;
+		return 0;
+	}
 		case 4: case 6: case 9: case 11: 
 		dias_mes=30; 
 		break; 
